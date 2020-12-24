@@ -1,0 +1,42 @@
+@keyframes phases {
+  0% {background-position: 0 ;}
+  100% {background-position: -1900% 0;}
+}
+
+@keyframes hands {
+  0% { opacity: 100%;}
+  50% { opacity: 15%;}
+}
+
+@keyframes woman-left {
+  24% { opacity: 100%;}
+  25% { opacity: 40%;}
+  44% { opacity: 100%;}
+  50% { opacity: 100%;}
+  60% { opacity: 0;}
+  85% { opacity: 100%;}
+}
+
+@keyframes woman-right {
+  40% { opacity: 100%;}
+  55% { opacity: 0;}
+  66% { opacity: 100%;}
+  70% { opacity: 100%;}
+  99% { opacity: 40%;}
+  100% { opacity: 100%;}
+}
+
+@keyframes bloom {
+  0% { background-position: 0;}
+  100% {background-position: -500% 0;}
+}
+
+@keyframes blink {
+  0% { opacity: 100%;}
+  50% { opacity: 15%;}
+}
+
+@keyframes bubbles {
+  0% {background-position: 0;}
+  100% {background-position: 100% bottom;}
+}

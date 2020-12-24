@@ -1,0 +1,9 @@
+@import "reset.css";
+@import "layout.css";
+@import "animation.css";
+@import "responsive.css";
+ /* fonts import */
+@font-face {
+  font-family: 'ModernoThree';
+  src: url('fonts/ModernoThree.ttf') format('truetype');
+}

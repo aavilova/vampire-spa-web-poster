@@ -1,0 +1,300 @@
+
+     body {
+        background: black;
+        font-family: ModernoThree;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+
+      }
+
+      .content {
+        width: 100%;
+      }
+
+      .all-main {
+        width: 51.47vw;
+        position: absolute;
+        top: 23vw;
+        left: 13.5vw;
+        right: auto;
+      }
+      /* top section */
+
+      .top img {
+        width: 98.2142857vw;
+        margin: 1.78571429vw .89285714vw;
+        position: relative;
+      }
+
+      .top-flowers-pattern {
+        position: absolute;
+        top: 5.5vw;
+        left: 11.65vw;
+        animation: blink 1.5s infinite;
+      }
+
+      .top-flowers-pattern img {
+        width: 75.8928571vw;
+      }
+
+      .half-circle{
+        border-radius: 50% 50% 4% 4%/ 90% 90% 10% 10%;
+        width: 66.0714286vw;
+        height: 22.6190476vw;
+        position: absolute;
+        top: 10.1190476vw;
+        left: 16.9642857vw;
+        background: #EDEBDF;
+      }
+
+      .ornament-top {
+        position: absolute;
+        top: 10%;
+        left: 19.35vw;;
+
+      }
+
+      .ornament-top img{
+        width: 26.547619vw;
+      }
+
+      .text {
+        position: absolute;
+        top: 5.5vw;
+        left: 12vw;
+        color: #9B0000;
+        text-align: center;
+        font-size: 3.57142857vw;
+        line-height: 4.16666667vw;
+        padding-top: 2.97619048vw;
+      }
+
+      .ornament-bottom {
+        position: absolute;
+        top: 18vw;
+        left: -.2vw;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .ornament-bottom
+      .line img {
+        width: 26.547619vw;
+        margin: 2vw 5.4vw;
+      }
+
+      .pattern-left img {
+        width: 10.1190476vw;
+        padding: 0 1.99404762vw;
+        margin-left: 0;
+        margin-top: -2.67857143vw;
+      }
+
+      .pattern-right img{
+        width: 10.1190476vw;
+        padding: 0 1.99404762vw;
+        margin-left: 0;
+        margin-top: -2.67857143vw;
+      }
+
+      /* main part */
+      .main {
+        width: 79.1666667vw;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 34.5238095vw;
+        left: 10.4166667vw;
+      }
+
+      .main-frame {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .top-part {
+        width: 79.1666667vw;
+        height: 66vw;
+        background: url('../images/top-part.svg');
+        background-size: 100% auto;
+        display: inline-block;
+      }
+
+      .center-part {
+        width: 79.1666667vw;
+        height: 24.4vw;
+        background: url('../images/center-part.svg');
+        background-size: 100% auto;
+        display: inline-block;
+        margin: -.7vw 0;
+      }
+
+      .bottom-part {
+        width: 79.1666667vw;
+        height: 53vw;
+        background: url('../images/bottom-part.svg');
+        background-size: 100% auto;
+        display: inline-block;
+      }
+
+      .moon {
+        width: 14.2857143vw;
+        height: 14.2857143vw;
+        background: url('animate images/moon sprite.svg');
+        background-size: auto 100%;
+        background-position: right;
+        position: absolute;
+        top: -18.5vw;
+        left: 19vw;
+        animation: phases 2s steps(19) infinite;
+      }
+
+      .hands {
+        width: 49.4047619vw;
+        display: inline-block;
+        margin-top: -7.6vw;
+        margin-left: 1.19047619vw;
+        animation: hands 1.5s infinite;
+      }
+
+      .flower {
+        width: 14.4047619vw;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 19vw;
+      }
+
+      .woman-left {
+        width: 23.8095238vw;
+        margin-left: 1.48809524vw;
+        margin-top: .2vw;
+        display: inline-block;
+        animation: woman-left 1.5s infinite;
+      }
+
+      .woman-right {
+        width: 23vw;
+        margin-left: 1.38888889vw;
+        display: inline-block;
+        animation: woman-right 1.5s infinite;
+      }
+      .big-ornament-center-1 {
+        width: 47.6190476vw;
+        height: 14.7619048vw;
+      }
+
+      .big-ornament-center-2 {
+        width: 47.6190476vw;
+        height: 14.7619048vw;
+      }
+      .ornament-center {
+        width: 47.6190476vw;
+        margin-top: 2vw;
+        margin-left: 4.5vw;
+        display: flex;
+      }
+
+      .bat img{
+        width: 14.8809524vw;
+        position: relative;
+      }
+
+      .flower-animate {
+        width: 14.8809524vw;
+        height: 10.4166667vw;
+        background: url('animate images/flower sprite.svg');
+        background-size: auto 100%;
+        background-position: 0;
+        position: relative;
+        animation: bloom .5s steps(5) infinite;
+      }
+
+      .ornament-left-part {
+        width: 23.8095238vw;
+        display: inline-block;
+      }
+
+      .ornament-right-part {
+        width: 23.8095238vw;
+        display: inline-block;
+      }
+
+      .line-bottom img{
+        width: 26.7857143vw;
+        margin: 1.45vw 13.212857vw;
+        position: relative;
+      }
+
+
+      .flowers-bottom img{
+        width: 50.297619vw;
+        margin-left: .6vw;
+        margin-bottom: 2.5vw;
+      }
+
+      .bottom-flowers-pattern {
+        position: absolute;
+        bottom: 7vw;
+        left: 4.6vw;
+        animation: blink 1.5s infinite;
+      }
+
+      .bottom-flowers-pattern img{
+        width: 69.4642857vw;
+      }
+
+      .bubbles-gradient-1 {
+        width: 5.95238095vw;
+        height: 78vw;
+        position: absolute;
+        top: 32.6vw;
+        left: 5.35714286vw;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,1) 100%);
+      }
+
+      .bubbles-gradient-2  {
+        width: 5.95238095vw;
+        height: 78vw;
+        position: absolute;
+        top: 32.6vw;
+        right: 5.5vw;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,1) 100%);
+      }
+
+      .bubbles-1 {
+        width: 5.95238095vw;
+        height: 77.3809524vw;
+        position: absolute;
+        top: 32.7380952vw;
+        left: 5.35714286vw;
+        background: url('animate images/bubbles.svg');
+        background-size: 100% auto;
+        background-position: bottom;
+        animation: bubbles 8s linear infinite;
+      }
+
+      .bubbles-2 {
+        width: 5.95238095vw;
+        height: 77.3809524vw;
+        position: absolute;
+        top: 32.7380952vw;
+        right: 5.5vw;
+        background: url('animate images/bubbles.svg');
+        background-size: 100% auto;
+        background-position: bottom;
+        animation: bubbles 8s linear infinite;
+      }
+
+      .footer {
+        font-family: ModernoThree;
+        font-size: 2.85714286vw;
+        margin-top: 2.38095238vw;
+        margin-bottom: 1.5vw;
+        text-align: center;
+        color: #2898FF;
+        display: block;
+      }

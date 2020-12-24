@@ -1,0 +1,19 @@
+@media all and (max-width: 1920px) {
+	 .big-ornament-center-1 { display: none;}
+}
+
+@media all and (max-width: 768px) {
+	 .center-part { height: 165.8vw;}
+	 .bubbles-1 { height: 220vw; animation: bubbles 4s linear infinite;}
+	 .bubbles-2 { height: 220vw; animation: bubbles 4s linear infinite;}
+	 .bubbles-gradient-1 { height: 221vw}
+	 .bubbles-gradient-2 { height: 221vw}
+	 .ornament-left-part {width: 33.8541667vw; display: block;}
+	 .ornament-right-part {width: 33.8541667vw; display: block; margin-top: 17vw;}
+	 .big-ornament-center-1 { display: block; position: absolute; top: 111vw;}
+	 .big-ornament-center-2 { display: none;}
+	 .ornament-left-part {transform: scale(1.4);}
+	 .ornament-right-part {transform: scale(1.4);}
+	 .woman-left {margin: 17vw 11vw;}
+	 .woman-right {margin: 17vw 11vw;}
+}
